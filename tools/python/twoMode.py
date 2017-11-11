@@ -114,8 +114,8 @@ def createCSV():
 			for row in realData:
 				writer.writerow(row)
 			writeFile.close()
-			print(name+".csv转换完成")
-			fileName.append(name)
+			print(name + ".csv转换完成！！！")
+			fileName.append(name + "改")
 			name = input("请继续输入文件名：")
 		else:
 			name = input("请继续输入文件名：")
@@ -333,3 +333,5 @@ if __name__ == '__main__':
 		DataToXlsByList(csvName)
 	elif int(mode) == 2:
 		DataToXlsByName()
+	else:
+		print('输入错误！再见！！！')
