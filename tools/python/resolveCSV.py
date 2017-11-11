@@ -109,8 +109,8 @@ def createCSV():
 			for row in realData:
 				writer.writerow(row)
 			writeFile.close()
-			print(name+".csv转换完成")
-			fileName.append(name+".csv")
+			print(name+".csv转换完成！！！")
+			fileName.append(name+"改")
 			name = input("请继续输入文件名：")
 		else:
 			name = input("请继续输入文件名：")
